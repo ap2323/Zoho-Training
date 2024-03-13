@@ -1,0 +1,21 @@
+// C++ Program to Be Shared In DLL to Illustrate
+// Native Method in Java
+
+// Importing required libraries
+#include <iostream>
+
+using namespace std;
+// Method 2
+// Native
+void test(int var) { cout << var; }
+
+// Method 1
+// Main driver method
+int main()
+{
+
+	test(10);
+
+	return 1;
+}
+
